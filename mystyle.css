@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css2?family=Nerko+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap);
+
+body{
+    background-color: rgb(43, 48, 54);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: Nerko One;
+    font-size: 40px;
+    color: rgb(178, 179, 208);
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-family: Nerko One;
+    font-size: 25px;
+    color: rgb(195, 132, 188);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-family: Handjet;
+    font-size: 40px;
+    color: rgb(118, 126, 240);
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+p{
+    font-family: Source Code Pro;
+    color: rgb(217, 223, 230);
+}
+
+.p1{
+    font-size: 20px;
+}
+
+table{
+    color: rgb(197, 234, 234);
+    font-family: Source Code Pro;
+    text-align: center;
+    font-size: 23px;
+}
+
+#mypic1{
+    border-radius: 100%;
+    width: 350px;
+    height: 340px;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul{
+    color: rgb(183, 213, 213);
+    font-family: Source Code Pro;
+    font-size: 20px;
+}
+
+video{
+    width: 1000px; 
+    height: 550px; 
+    display: block;
+    margin: 0 auto;
+}
+
+#football{
+    width: 480px;
+    height: 300px;
+}
+
+#music{
+    width: 520px;
+    height: 300px;
+}
+
+#mypic2{
+    width: 300px;
+    height: 430px;
+}
+
+#mypic3{
+    width: 330px;
+    height: 430px;
+}
+
+#mypic4{
+    width: 320px; 
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+}
+
+#instagram{
+    width: 18px; 
+    height: 15px;
+}
+
+#facebook{
+    width: 18px; 
+    height: 15px;
+}
+
+#email{
+    width: 18px; 
+    height: 15px;
+}
+
+#phone{
+    width: 18px; 
+    height: 15px;
+}
+
+.photo{
+    font-family: Source Code Pro;
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+}
