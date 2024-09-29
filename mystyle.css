@@ -14,24 +14,24 @@ body{
 header{
     float: left;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     font-family: Nerko One;
     color: rgb(226, 232, 239);
     text-align: left;
-    background-color: rgb(100, 164, 213);
+    background-color: rgb(99, 144, 178);
     text-decoration:underline;
 }
 
 header h1{
     font-family: Nerko One;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0;
     letter-spacing: 1px;
 }
 
 nav{
     float: left;
-    width: 12%;
+    width: 7%;
     height: 100vh;
     padding: 10px;
     text-align: left;
@@ -49,7 +49,7 @@ nav ul {
 nav ul li {
     display: block;
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 
@@ -63,13 +63,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    border-radius: 10%;
     background-color: rgb(145, 164, 175); 
     color: rgb(0, 0, 0);
-}
-
-.border-nav{
-    border-radius: 30%;
-    background-color: rgb(153, 180, 199);
 }
 
 main{
@@ -193,7 +189,7 @@ video{
 
 footer{
     font-family: Source Code Pro;
-    background-color: rgb(48, 120, 175);
+    background-color: rgb(99, 144, 178);
     padding: 10px;
     text-align: center;
     clear: both;

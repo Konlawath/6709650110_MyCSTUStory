@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css2?family=Nerko+One&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
@@ -14,24 +13,24 @@ body{
 header{
     float: left;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     font-family: Nerko One;
     color: rgb(226, 232, 239);
     text-align: left;
-    background-color: rgb(100, 164, 213);
+    background-color: rgb(99, 144, 178);
     text-decoration:underline;
 }
 
 header h1{
     font-family: Nerko One;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0;
     letter-spacing: 1px;
 }
 
 nav{
     float: left;
-    width: 12%;
+    width: 7%;
     height: 100vh;
     padding: 10px;
     text-align: left;
@@ -49,7 +48,7 @@ nav ul {
 nav ul li {
     display: block;
     margin: 15px 0;
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 
@@ -63,23 +62,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    border-radius: 10%;
     background-color: rgb(145, 164, 175); 
     color: rgb(0, 0, 0);
 }
 
-nav ul li a.active {
-    background-color: rgb(182, 72, 72); 
-    color: rgb(182, 72, 72); 
-    font-weight: bold; 
-}
-
-.border-nav{
-    border-radius: 30%;
-    background-color: rgb(153, 180, 199);
-}
-
 main{
-    width: 80%;
+    width: 84%;
     padding: 15px;
     float: right;
 }
@@ -107,7 +96,7 @@ p{
 
 #grade{
     width: 400px;
-    height: 300px;
+    height: 290px;
     border: 5px double rgb(148, 136, 136);
     margin: 5%;
 }
@@ -143,7 +132,7 @@ p{
 
 footer{
     font-family: Source Code Pro;
-    background-color: rgb(48, 120, 175);
+    background-color: rgb(99, 144, 178);
     padding: 10px;
     text-align: center;
     clear: both;
